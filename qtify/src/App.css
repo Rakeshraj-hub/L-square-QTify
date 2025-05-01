@@ -1,8 +1,29 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  
+  margin: 0;
+  padding: 0;
+  width: 100%;
   text-align: center;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #121212 ;
+}
+
+/* body {
+  padding-top: 74px; 
+} */
+
+/* body, html, .main {
+  margin: 0;
+  padding: 0;
+} */
+.main-content{
+  padding-top: 74px;
 }
 
 .logo {

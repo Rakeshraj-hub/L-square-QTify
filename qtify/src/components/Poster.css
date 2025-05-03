@@ -1,0 +1,41 @@
+/* .poster{
+    color: #121212;
+    height: 270px;
+    width: 1440px;
+} */
+
+.poster {
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    color: white;
+    height: 270px;
+    width: 1350px;
+    /* padding: 0; */
+    margin-top: 0;
+    text-align: center;
+    /* z-index: 1000; */
+    box-sizing: border-box;
+  }
+  
+  /* .poster-text h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .poster-text p {
+    font-size: 20px;
+    margin-top: 10px;
+  } */
+  
+  .poster-image img {
+    width: 799px;
+    height: 212px;
+    /* margin-top: 103px;
+    margin-left: 328px; */
+  }
+  

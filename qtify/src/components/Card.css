@@ -1,0 +1,21 @@
+.divi{
+    display: flex;
+    justify-content: space-between;
+    color: 'white';
+    
+    
+}
+
+.div :hover {
+    color: #1db954;
+    transform: scale(1.05);
+    
+    color: 'white';
+    transition: 'color 0.3s, transform 0.3s';
+  }
+
+  .div  {
+    cursor: grab;
+    transition: transform 0.3s;
+    color: green;
+  }

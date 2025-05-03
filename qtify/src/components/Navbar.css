@@ -1,0 +1,79 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1DB954; /* Green background */
+    /* padding: 0px 0px; */
+    width: 1350px;
+    height: 74px;
+    z-index: 1000;
+    padding: 0 20px;
+  }
+  
+  /* .navbar-left {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .logo-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+  }
+  
+  /* .navbar-center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .search-input {
+    padding: 10px;
+    width: 400px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-button svg {
+    color: black;
+  }
+  
+  /* .navbar-right {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .feedback-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #1DB954; /* Green Text */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 50px;
+  }
+  

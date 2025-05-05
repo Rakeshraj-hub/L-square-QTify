@@ -49,10 +49,10 @@ function Cards({albums, name}){
 
     <div>
     <div className='divi'>
-    <Typography variant="title" color='#fff'>
+    {name!=="Songs"?<Typography variant="title" color='#fff'>
             {name}
-          </Typography>
-     <Typography onClick={()=>collapseable()} className='div' >{cont}</Typography>
+          </Typography>:null}{name!=="Songs"?
+     <Typography onClick={()=>collapseable()} className='div' >{cont}</Typography>:null}
     </div>
     {collapse ?
     <Swiper
@@ -78,6 +78,30 @@ function Cards({albums, name}){
           alt={album.title}
         />
         <CardContent>
+          {name==="Songs"?
+            <Typography 
+          variant='caption'
+           sx={{
+            backgroundColor: '#121212',
+            borderRadius: 2,
+            px: 1,
+            py: 0.5,
+            display: 'inline-block',
+            color:'#fff',
+            mb: 1,
+            fontWeight: 'bold',
+            boxShadow: 3,
+            transition: '0.3s',
+           '&:hovor':{darkScrollbar,
+              boxShadow: 6,                 
+               backgroundColor: '#f0f0f0',   
+              transform: 'scale(1.03)'
+            }
+
+           }}
+          >
+           Likes {album.likes}
+          </Typography>:
           <Typography 
           variant='caption'
            sx={{
@@ -101,7 +125,7 @@ function Cards({albums, name}){
           >
            follows {album.follows}
           </Typography>
-          
+          }
           {/* <Typography variant="sub-title" fontWeight='bold'>
             {album.subtitle}
           </Typography> */}

@@ -1,3 +1,8 @@
+body, .navbar, .brand-name, .feedback-button, .search-input {
+  font-family: 'Poppins', sans-serif;
+}
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

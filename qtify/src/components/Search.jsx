@@ -1,4 +1,4 @@
-// components/Search.jsx
+
 import React from 'react';
 import { FaSearch } from 'react-icons/fa';
 import './Search.css';

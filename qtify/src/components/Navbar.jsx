@@ -1,14 +1,14 @@
 import React from 'react';
 import './Navbar.css';
 import { FaSearch } from 'react-icons/fa';
-import qicon from '../assets/Group1.png';
+import logo from '../assets/Group1.png';
 
 function Navbar() {
   return (
     <div className="navbar">
       {/* Logo */}
       <div className="navbar-left">
-        <img src={qicon} alt="App Logo" className="logo-icon" />
+        <img src={logo} alt="App Logo" className="logo-icon" />
       </div>
 
       {/* Search Bar */}

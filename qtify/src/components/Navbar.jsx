@@ -2,8 +2,7 @@
 import React from 'react';
 import './Navbar.css';
 import { FaSearch } from 'react-icons/fa';  // react-icons package
-import qicon from "../assets/Group1.png";
-
+import qicon from '../assets/Group1.png'; 
 
 function Navbar() {
   return (

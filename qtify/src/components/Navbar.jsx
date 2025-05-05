@@ -1,31 +1,21 @@
+// components/Navbar.jsx
 import React from 'react';
 import './Navbar.css';
-import { FaSearch } from 'react-icons/fa';
-import logo from '../assets/Group1.png';
+import Logo from './Logo';
+import Search from './Search';
+import Button from './Button';
 
 function Navbar() {
   return (
     <div className="navbar">
-      {/* Logo */}
       <div className="navbar-left">
-        <img src={logo} alt="App Logo" className="logo-icon" />
+        <Logo />
       </div>
-
-      {/* Search Bar */}
       <div className="navbar-center">
-        <input
-          type="text"
-          placeholder="Search a album of your choice"
-          className="search-input"
-        />
-        <button className="search-button" aria-label="search">
-          <FaSearch />
-        </button>
+        <Search />
       </div>
-
-      {/* Feedback Button */}
       <div className="navbar-right">
-        <button className="feedback-button">Give Feedback</button>
+        <Button text="Give Feedback" />
       </div>
     </div>
   );

@@ -1,0 +1,22 @@
+/* components/Search.css */
+.search-bar {
+    display: flex;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 300px;
+  }
+  
+  .search-button {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
